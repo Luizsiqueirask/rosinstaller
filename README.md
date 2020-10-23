@@ -1,7 +1,9 @@
-# rosinstaller
+# Rosinstaller
+
 Instalador ROS 1 e ROS 2
 
-Como Usar:
+# Como Usar:
+
 	Entre no diretório do ros installer
 
 	# cd rosinstaller
@@ -15,14 +17,14 @@ Como Usar:
 	# sudo chmod +x ./install.sh
 	# sudo bash +x ./install.sh
 	
-Caso queira visualizar o que tem no script
+	Caso queira visualizar o que tem no script
 	
-# cat install.sh
+	# cat install.sh
 
-Para limpar a tela
+	Para limpar a tela
 
-# clear
+	# clear
 
 	Executando o script
 	
-# ./install.sh
+	# ./install.sh
