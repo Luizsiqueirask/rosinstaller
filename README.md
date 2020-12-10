@@ -6,25 +6,25 @@ Instalador ROS 1 e ROS 2
 
 	Entre no diretório do ros installer
 
-	# cd rosinstaller
+	$ cd rosinstaller
 
 	Visualizar o conteúdo no diretório
 
-	# ls
+	$ ls
 	
 	Permissão para executar o script.
 
-	# sudo chmod +x ./install.sh
-	# sudo bash +x ./install.sh
+	$ sudo chmod +x ./install.sh
+	$ sudo bash +x ./install.sh
 	
 	Caso queira visualizar o que tem no script
 	
-	# cat install.sh
+	$ cat install.sh
 
 	Para limpar a tela
 
-	# clear
+	$ clear
 
 	Executando o script
 	
-	# ./install.sh
+	$ ./install.sh
