@@ -4,7 +4,7 @@
 # Copyright (c) Instituto Infnet
 # This script was developed to assist in the installation. To the students of the Institute Infnet .
 # ROS 1 && 2, Gazebo, virtualBox, Chrome Installer and Uninstaller.
-# Version 1.6.2
+# Version 1.6.3
 
 #-------------- All Color -----------------
 
@@ -128,7 +128,8 @@ InstallRos(){
 			sudo apt install ros-noetic-desktop-full -y
 			source /opt/ros/noetic/setup.bash
 			sudo apt install ros-noetic-slam-gmapping -y
-			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers -y
+			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-smach ros-noetic-smach-ros
+ros-noetic-executive-smach ros-noetic-smach-viewer -y
 			echo alias initros1="'source /opt/ros/noetic/setup.bash'" >> ~/.bashrc
 			source ~/.bashrc
 			sleep 3
@@ -138,7 +139,8 @@ InstallRos(){
 			sudo apt install ros-noetic-desktop -y
 			source /opt/ros/noetic/setup.bash
 			sudo apt install ros-noetic-slam-gmapping -y
-			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers -y
+			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-smach ros-noetic-smach-ros
+ros-noetic-executive-smach ros-noetic-smach-viewer -y
 			echo alias initros1="'source /opt/ros/noetic/setup.bash'" >> ~/.bashrc
 			source ~/.bashrc
 			sleep 3
@@ -148,7 +150,8 @@ InstallRos(){
 			sudo apt install ros-noetic-base -y
 			source /opt/ros/noetic/setup.bash
 			sudo apt install ros-noetic-slam-gmapping -y
-			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers -y
+			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-smach ros-noetic-smach-ros
+ros-noetic-executive-smach ros-noetic-smach-viewer -y
 			echo alias initros1="'source /opt/ros/noetic/setup.bash'" >> ~/.bashrc
 			source ~/.bashrc
 			sleep 3
@@ -158,7 +161,8 @@ InstallRos(){
 			sudo apt install ros-noetic-core -y
 			source /opt/ros/noetic/setup.bash
 			sudo apt install ros-noetic-slam-gmapping -y
-			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers -y
+			sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-smach ros-noetic-smach-ros
+ros-noetic-executive-smach ros-noetic-smach-viewer -y
 			echo alias initros1="'source /opt/ros/noetic/setup.bash'" >> ~/.bashrc
 			source ~/.bashrc
 			sleep 3
