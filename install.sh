@@ -5,7 +5,7 @@
 # This script was developed to assist in the installation.
 # To the students of the Institute Infnet .
 # Installer ROS 1 & 2, Chrome.
-# Version 1.6.7
+# Version 1.6.7.1
 
 #-------------- All Color -----------------
 
@@ -19,11 +19,11 @@ nc='\e[0m'
 
 #You can change your version to installer only changing valiable name.
 #select your version using position array for choise install version.
-echo -e -n "$brown_orange Enter choice [1 Kinect | 2 Melodic | 3 Noetic | 4 Exit]: $nc"
+echo -e -n "$brown_orange Enter choice [1 Kinetic | 2 Melodic | 3 Noetic | 4 Exit]: $nc"
 read ros1
 case $ros1 in 
 	  1)
-		versionRos1='kinect'
+		versionRos1='kinetic'
 		;;
 	  2)
 		versionRos1='melodic'
@@ -36,14 +36,13 @@ case $ros1 in
 	  	exit 0
 	  	;;
 	  *)
-	  	echo -e "\n\n$red ERROR: $yellow This options is not correct. Try again!!!\n\n $nc" 
-	  	sleep 2
+	  	echo -e "\n\n$red ERROR: $yellow Try again!!!\n\n $nc" && sleep 2
 	  	clear
 	  	exit 0
 	  	;;
 	esac
 
-echo -e -n "$brown_orange Enter choice [1 Dashing | 2 Foxy | 3 Exit ]: $nc"
+echo -e -n "$brown_orange Enter choice [1 - Dashing | 2 - Foxy | 3 Exit ]: $nc"
 read ros2
 case $ros2 in 
 	  1)
@@ -57,13 +56,12 @@ case $ros2 in
 	  	exit 0
 	  	;;
 	  *)
-		echo -e "\n\n$red ERROR: $yellow This options is not correct. Try again!!!\n\n $nc" 
-	  	sleep 2
+	  	echo -e "\n\n$red ERROR: $yellow Try again!!!\n\n $nc" && sleep 2
 	  	clear
 	  	exit 0
 	  	;;
 	esac
-	
+
 #--------------------------------------------
 
 ShowMenu() {
@@ -128,7 +126,7 @@ ReadMenu(){
 			exit 0
 			;;
 		*)
-			echo -e "\n\n$red ERROR: $yellow This options is not correct, Try again!!!\n\n $nc" && sleep 2
+			echo -e "\n\n$red ERROR: $yellow Invalid Option, Try again!!!\n\n $nc" && sleep 2
 	esac
 }
 
@@ -172,7 +170,7 @@ SystemTools() {
 		return 0
 		;;
 	*)
-		echo -e "$red ERROR: $yellow This options is not correct, Try again!!!\n\n $nc" && sleep 1
+		echo -e "$red ERROR: $yellow Invalid Option, Try again!!!\n\n $nc" && sleep 1
 	esac
 		
 }
@@ -249,7 +247,7 @@ Chrome(){
 			return 0
 			;;
 		*)
-			echo -e "\n\n$red ERROR: $yellow This options is not correct, Try again!!!\n\n $nc" && sleep 2
+			echo -e "\n\n$red ERROR: $yellow Invalid Option, Try again!!!\n\n $nc" && sleep 2
 	esac
 
 }
