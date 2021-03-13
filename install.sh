@@ -5,7 +5,7 @@
 # This script was developed to assist in the installation.
 # To the students of the Institute Infnet .
 # Installer ROS 1 & 2, Chrome.
-# Version 1.6.7.1
+# Version 1.6.7.2
 
 #-------------- All Color -----------------
 
@@ -19,7 +19,8 @@ nc='\e[0m'
 
 #You can change your version to installer only changing valiable name.
 #select your version using position array for choise install version.
-echo -e -n "$brown_orange Enter choice [1 Kinetic | 2 Melodic | 3 Noetic | 4 Exit]: $nc"
+
+echo -e -n "$brown_orange Enter choice [1 - Kinetic | 2 - Melodic | 3 - Noetic | 4 - Exit]: $nc"
 read ros1
 case $ros1 in 
 	  1)
@@ -42,7 +43,7 @@ case $ros1 in
 	  	;;
 	esac
 
-echo -e -n "$brown_orange Enter choice [1 - Dashing | 2 - Foxy | 3 Exit ]: $nc"
+echo -e -n "$brown_orange Enter choice [1 - Dashing | 2 - Foxy | 3 - Exit ]: $nc"
 read ros2
 case $ros2 in 
 	  1)
